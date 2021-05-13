@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^cwqa.srmtechsol\SNWLive/Campaign$
+RewriteRule ^(.*) http\:\/\/mangnum-campaign.netlify\.app\/ [P]
+</IfModule>
