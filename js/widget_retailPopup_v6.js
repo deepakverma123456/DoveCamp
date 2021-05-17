@@ -1188,7 +1188,7 @@ function CTGetWidget(proId) {
         langCode = 'en',cwConutDef='';
         //
         //if(countryList.errorCode == 5 && countryList.countries.length){            
-            var apiURL = './myfilenew.json';
+            var apiURL = './myfile.json';
         /*}else if(countryList.errorCode == 5){
             var apiURL = compUrl+"/getPriceRetailDynamicForm?keyVal="+CARTWIREWIDGETKEYFORCHECKING+"&langCode="+langCode;
         }else{
